@@ -20,6 +20,8 @@ propsList[1].before(itemTitle[4]);
 propsList[5].before(itemTitle[1]);
 propsList[4].before(itemTitle[5]);
 
+itemTitle[2].innerHTML = 'This и прототипы объектов';
+
 const itemTwoPropsSix = document.querySelectorAll('.item_six .content .props__list .props__item_two');
 propsList[1].append(itemTwoPropsSix[0], itemTwoPropsSix[1]);
 
